@@ -1,0 +1,7 @@
+//contenedor_redis
+docker run -d --name redis1 -p 6379:6379 redis
+docker exec -ti redis1 bash
+redis-cli
+//redis-commander
+npm install -g redis-commander
+redis-commander
